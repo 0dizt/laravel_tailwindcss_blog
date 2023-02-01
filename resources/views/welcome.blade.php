@@ -4,6 +4,6 @@
 @endsection
 @section('content')
     <h1 class="text-3xl font-bold underline">
-        Hello world!
+        Hello world, my name is Joshua Nwosu!
     </h1>
 @endsection
