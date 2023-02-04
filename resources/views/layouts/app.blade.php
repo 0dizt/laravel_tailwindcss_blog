@@ -9,10 +9,9 @@
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         {{-- Style --}}
-        {{-- <link rel="stylesheet" href="{{asset('css/app.css')}}"> --}}
         @vite(['resources/css/app.css','resources/js/app.js'])
     </head>
-    <body>
+    <body class="bg-gray-50 dark:bg-gray-900">
         <div class="container">
         @yield('content')
 

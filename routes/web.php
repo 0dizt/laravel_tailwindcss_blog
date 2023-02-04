@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/signup', [UserController::class, 'create']);
+Route::post('/signup', [UserController::class, 'store']);
+Route::get('/login', [UserController::class, 'login']);
+
+// Route::resources('user')

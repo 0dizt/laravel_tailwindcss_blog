@@ -1,9 +1,10 @@
 @extends('layouts.app')
 @section('title')
-    Laravel Tailwindcss Blog - Joshua
+Laravel Tailwindcss Blog - Joshua
 @endsection
 @section('content')
-    <h1 class="text-3xl font-bold underline">
-        Hello world, my name is Joshua Nwosu!
-    </h1>
+
+<a href="/signup" class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
+    Sign Up
+</a>
 @endsection
